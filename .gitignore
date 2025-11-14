@@ -1,0 +1,49 @@
+# ============================================
+# Node / Vite / React Project .gitignore
+# ============================================
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & OS Files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+
+# Local environment settings
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+.env.*.local
+
+# Cache
+.cache/
+vite.cache/
+*.cache
+
+# Misc
+*.tmp
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Optional: If using Firebase/Amplify/etc.
+.firebase/
+amplify/#current-cloud-backend/
